@@ -1,0 +1,23 @@
+# JS-7-Feb-2024
+Prueba de lo visto en clase
+
+// crear una funcion que me permita instanciar tres personajes de los simpsons los tiene que crear el usuario
+// Miercoles, 7 de Febrero de 2024
+
+let crea = prompt("crea un personaje de los simpsons \n Presiona 1 para OK \n 2 para LUEGO");
+
+function infoRequerida(nombre, apellido, edad){
+  nombre = prompt("Nombre del personaje");
+  apellido = prompt("Apellido del personaje");
+  edad = prompt("Edad del personaje");
+
+  frase = `Creaste a ${nombre} ${apellido} ${edad}`;
+
+  document.write(frase);
+}
+
+if (crea == 1){
+  infoRequerida();
+} else if (crea == 2) {
+  alert("lo respetamos, adios");
+} else;
