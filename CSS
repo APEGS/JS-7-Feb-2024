@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+}
+
+body {
+    background-color: rgb(15, 15, 15);
+    color: #ffffff;
+}
+
+h1 {
+    padding: 10px 0;
+}
+
+h2 {
+    margin-left: 3px;
+}
